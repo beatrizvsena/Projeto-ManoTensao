@@ -1,0 +1,292 @@
+.bodyPro {
+    align-items: center;
+    display: grid;
+    font-weight: 400;
+    height: 100%;
+    font-family: 'Montserrat';
+    margin: 0;
+    width: 100%;
+}
+
+/* .alll {
+    background: #000;
+    height: 100vh;
+}
+ */
+.bodyPro {
+    padding-bottom: 2rem;
+}
+
+.list {
+    cursor: pointer;
+}
+
+.bodyPro .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90px;
+    gap: 2rem;
+}
+
+.bodyPro .container .con {
+    display: flex;
+    justify-content: space-between;
+    width: 87%;
+}
+
+.header-bg {
+    background-color: #000;
+    transition: .5s;
+}
+
+.logoHeader {
+    font-family: 'ElectricShocker', sans-serif;
+    color: #fff;
+    font-size: 2.7rem;
+}
+
+.menu {
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+    color: #fff;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.menu li {
+    cursor: pointer;
+    font-family: 'Montserrat';
+}
+
+.menu .list {
+    text-decoration: none;
+    padding: 0 3px;
+    transition: 0.3s;
+}
+
+.menu .list:hover {
+    border-bottom: 3px solid var(--limeGreen);
+}
+
+.menu a.active {
+    border-bottom: 3px solid var(--limeGreen);
+}
+
+
+.containerProfile {
+    width: 90%;
+    height: 90vh;
+    margin-inline: auto;
+    margin-top: 3rem;
+    display: flex;
+    gap: 2rem;
+    align-content: space-around;
+    border-radius: 4.2px;
+    box-shadow: rgba(74, 74, 74, 0.2) 0px 12px 28px 0px, rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
+    position: relative;
+    background: #F4F5FA;
+    transition: transform 400ms, opacity 400ms;
+}
+
+@media screen and (max: 480px) {
+    .wrap-all-the-things {
+        padding-left: 70px;
+    }
+}
+
+.menu-info {
+    display: grid;
+    grid-template-areas: "." ".";
+    width: 46em;
+}
+
+.formProfile {
+    display: grid;
+    grid-template-areas: "left right";
+    padding: 30px 0 0 0;
+    position: relative;
+    text-align: center;
+}
+
+.titleProfile {
+
+    background: transparent;
+    color: #fff;
+    margin: 1em 2em;
+    border-bottom: #1E1E1E solid 1px;
+}
+
+.titleForm {
+    background: transparent;
+    color: #1E1E1E;
+    margin: 1em 2em;
+    border-bottom: #1E1E1E solid 1px;
+}
+
+.info_adress {
+    position: absolute;
+    color: #7b7b7b;
+    top: 0;
+    right: 5rem;
+}
+
+.info_contato {
+    position: absolute;
+    color: #7b7b7b;
+    top: 0;
+    left: 5rem;
+}
+
+label {
+    display: block;
+    padding-top: 20px;
+}
+
+label {
+    margin-bottom: 0.10em;
+    font-size: 12px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0.8em;
+    color: #1E1E1E;
+    position: relative;
+    padding-top: 5px;
+    text-transform: uppercase;
+    transition: 0.2s;
+
+}
+
+.dtNasc
+ {
+    position: relative;
+    left: -2rem;
+}
+
+
+
+.formProfile input {
+    width: 20em;
+    padding: 0.7em;
+    border: none;
+    outline-style: initial;
+    border-bottom: #97aa05a2 solid 1px;
+    gap: 4em;
+    border-radius: 2px;
+    height: 19px;
+    transition: box-shadow 150ms ease-out;
+    background-color: transparent;
+    cursor: text;
+    box-shadow: none;
+    color: #1E1E1E;
+    box-shadow: rgba(0, 0, 0, 0.15) 2.4px 2.4px 3.2px;
+}
+
+
+input[type="date"]::-webkit-calendar-picker-indicator {
+    content: url('../../../public/icons/calendar-outline.svg');
+}
+
+.info_contato,
+.info_adress {
+    font-size: 15px;
+}
+
+
+.btnAtt {
+    position: absolute;
+    bottom: -3rem;
+    right: 1em;
+    width: 20%;
+    height: 40px;
+    background: #D9F503;
+    border-radius: 20px;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.15) 2.4px 2.4px 3.2px;
+
+}
+
+
+.pic {
+    width: 20rem;
+    display: inline-block;
+    border-right: #c3c3c370 1px solid;
+    background: #1E1E1E;
+    gap: 4rem;
+}
+
+.pic img {
+    width: 10.2em;
+    height: 10em;
+    border-radius: 100%;
+    margin-top: 8em;
+    margin-left: 4.5em;
+    box-shadow: rgba(255, 255, 255, 0.15) 2.4px 2.4px 3.2px;
+    object-fit: cover;
+}
+
+.pic p {
+    font-size: 15px;
+    color: #fff;
+    font-weight: bold;
+    position: relative;
+    left: 7em;
+    top: 1em;
+}
+
+.pic span {
+    font-size: 12px;
+    font-weight: lighter;
+    color: #fff;
+    position: relative;
+    left: 8em;
+    top: 1em;
+}
+
+
+
+.importTxt {
+    position: absolute;
+    bottom: -3rem;
+    right: 12rem;
+    width: 20%;
+    height: 40px;
+    background: #fff;
+    border-radius: 20px;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.15) 2.4px 2.4px 3.2px;
+}
+
+
+
+.formFoto{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 6rem;
+    width: 6rem;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 2rem;
+    margin-left: 6.5rem;
+  }
+  
+/*   .uploaded-row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+    border-radius: 5px;
+    background-color: #e9f0ff;
+  } */
+  
+  .upload-content{
+    display: flex;
+    align-items: center;
+  }

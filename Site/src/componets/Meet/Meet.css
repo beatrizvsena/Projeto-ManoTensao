@@ -1,0 +1,171 @@
+.Meet {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 0 2rem;
+}
+
+.titleMeet {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-size: 2rem;
+    font-weight: 700;
+
+}
+
+.titleM {
+    font-family: 'MontserratLight';
+}
+
+.providers {
+    display: flex;
+    margin-left: 6rem;
+    margin-right: 6rem;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    margin-top: 3rem;
+}
+
+.boxesHome {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.boxHome {
+    width: 20rem;
+    height: 13rem;
+    background: #333333;
+    padding: 2rem;
+    border-radius: 40px;
+    transition: 300ms all;
+}
+
+.boxHome:hover {
+    transform: scale(1.03, 1.03);
+    box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.3);
+}
+
+.boxes {
+    background: var(--limeGreen);
+}
+
+.boxes2 {
+    margin-left: 4rem;
+}
+
+.boxesHome2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+    border-radius: 40px;
+}
+
+.boxHome2 {
+    width: 11rem;
+    height: 32rem;
+    background: #202020;
+    padding: 2rem;
+    border-radius: 40px;
+    transition: 300ms all;
+}
+
+.boxHome2:hover {
+    transform: scale(1.03, 1.03);
+    box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.3);
+}
+
+.boxHome2 img {
+    width: 5rem;
+}
+
+.boxHome2:nth-child(2) {
+    background: #333333;
+}
+
+.boxHome2:nth-child(3) {
+    background: #696969;
+}
+
+.boxHomesTitle {
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 1.3rem;
+    color: #fff;
+    margin-top: 1rem;
+}
+
+.boxHomesTitleG {
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 1.3rem;
+    color: #000;
+    margin-top: 1rem;
+}
+
+.boxHomeTitle {
+    margin-top: 7rem;
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 1.2rem;
+    color: #fff;
+}
+
+.boxHomeText {
+    font-family: 'MontserratLight';
+    font-size: 1rem;
+    color: #fff;
+    margin-top: 1.5rem;
+}
+
+.boxHomesText {
+    font-family: 'MontserratLight';
+    font-size: 1rem;
+    color: #fff;
+    margin-top: 1.5rem;
+}
+
+.boxHomesTextG {
+    font-family: 'MontserratLight';
+    font-size: 1rem;
+    color: #000;
+    margin-top: 1.5rem;
+}
+
+.satisfeito {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.qualificados {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.hidra {
+    display: flex;
+    flex-direction: column;
+}
+
+.gerais {
+    display: flex;
+    flex-direction: column;
+}
+
+.eletrico {
+    display: flex;
+    flex-direction: column;
+}
+
+.meet-blur {
+    width: 22rem;
+    height: 30rem;
+    left: 0;
+    /* top: 61rem; */
+}

@@ -1,0 +1,193 @@
+.plansInfo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 4rem;
+    background: #ffffff;
+    gap: 2rem;
+}
+
+.product {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.backPlan {
+    display: flex;
+    align-items: center;
+}
+
+.backPlan img {
+    width: 3.2rem;
+}
+
+.backPlan img:nth-child(1) {
+    width: 1.3rem;
+    cursor: pointer;
+    transition: 300ms all;
+}
+
+.backPlan img:nth-child(1):hover {
+    transform: scale(1.2, 1.2);
+}
+
+.volte {
+    font-family: 'Montserrat';
+}
+
+.informationPlan {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 0.5rem;
+    margin-left: 2rem;
+}
+
+.informationPlan .nameProdutuc {
+    font-family: 'Montserrat';
+    color: rgb(155, 155, 155);
+}
+
+.informationPlan .sale {
+    font-family: 'Montserrat';
+    font-size: 3rem;
+}
+
+.power {
+    color: rgb(155, 155, 155);
+    margin-left: 2rem;
+    margin-top: 15rem;
+}
+
+.power .by {
+    font-family: 'ElectricShocker', sans-serif;
+}
+
+.payments {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.3);
+    padding: 3rem;
+    border-radius: 20px;
+}
+
+.payments .bolButton {
+    background: var(--limeGreen);
+    width: 44rem;
+    height: 3rem;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 300ms all;
+    cursor: pointer;
+}
+
+.payments .bolButton:hover {
+    transform: scale(1.03, 1.03);
+    box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.3);
+}
+
+.payments .bolDown {
+    text-decoration: none;
+    color: transparent;
+}
+
+.payments .bolButton img {
+    width: 1.3rem;
+}
+
+.payments .boletoButton {
+    border: none;
+    color: #000;
+    background: transparent;
+    font-family: 'Montserrat';
+    font-size: 1.6rem;
+}
+
+.or {
+    color: rgb(155, 155, 155);
+}
+
+.cardEmail {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.cardEmail input {
+    width: 44rem;
+    height: 2rem;
+    border: 1px solid rgb(155, 155, 155);
+    border-radius: 7px;
+}
+
+.informationCard {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.informationCard input {
+    height: 2rem;
+    border: 1px solid rgb(155, 155, 155);
+}
+
+.informationCard .numberCard {
+    width: 44rem;
+    border-radius: 10px;
+}
+
+.informationCard .dateCard {
+    border: 1px solid rgb(155, 155, 155);
+    width: 44rem;
+    border-radius: 10px;
+}
+
+.informationCard .cvcCard {
+    border: 1px solid rgb(155, 155, 155);
+    width: 44rem;
+    border-radius: 10px;
+}
+
+.cardName {
+    display: flex;
+    flex-direction: column;
+}
+
+.cardName input {
+    width: 44rem;
+    height: 2rem;
+    border: 1px solid rgb(155, 155, 155);
+    border-radius: 7px;
+}
+
+.cardButton {
+    border: none;
+    width: 44rem;
+    height: 3rem;
+    border-radius: 15px;
+    color: #fff;
+    font-size: 1.6rem;
+    font-family: 'Montserrat';
+    background: #000;
+    transition: 300ms all;
+    cursor: pointer;
+}
+
+.cardButton:hover {
+    transform: scale(1.03, 1.03);
+    box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.3);
+}
+
+.error {
+    position: absolute;
+    color: red;
+    font-size: .6rem;
+}

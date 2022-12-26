@@ -1,0 +1,239 @@
+.search {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 4rem;
+    padding-top: 7rem;
+}
+
+.busca {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.buscas {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+.find {
+    color: #fff;
+    font-size: 3rem;
+    font-family: 'Montserrat';
+    font-weight: 400;
+}
+
+select {
+    appearance: none;
+    outline: 0;
+    box-shadow: none;
+    border: 0;
+    background: #fff;
+    font-size: 1.5rem;
+    width: 33rem;
+    font-family: 'MontserratLight';
+    background-image: none;
+    cursor: pointer;
+}
+
+.select {
+    display: flex;
+    background: #fff;
+    width: 35rem;
+    height: 4.5rem;
+    overflow: hidden;
+    padding-left: 1rem;
+    border-radius: 8px;
+    gap: 1rem;
+}
+
+.sele {
+    display: flex;
+    align-items: center;
+    background: #fff;
+    width: 20rem;
+    height: 4.5rem;
+    overflow: hidden;
+    padding-left: 1rem;
+    border-radius: 8px;
+    gap: 1rem;
+}
+
+.mais {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    gap: 1rem;
+}
+
+.switch {
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+    position: relative;
+}
+
+.switch .switchButton {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 40px;
+    background: #475569;
+}
+
+.switch .switchButton::before {
+    content: "";
+    width: 26px;
+    height: 26px;
+    position: absolute;
+    left: 4px;
+    bottom: 4px;
+    border-radius: 50%;
+    transition: .4s all ease;
+    background: #fff;
+}
+
+.switch .avaliados:checked + .switchButton {
+    background: #60cc13;
+}
+
+.switch .avaliados:checked + .switchButton::before {
+    transform: translateX(26px);
+}
+
+.switch .avaliados {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+.melhores {
+    font-size: 1.2rem;
+    font-family: 'MontserratLight';
+}
+
+.sele img {
+    width: 2rem;
+    object-fit: contain;
+}
+
+.select img {
+    width: 2rem;
+}
+
+.allProvi {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.providerss {
+    /* display: flex; */
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 7rem;
+}
+
+.provider {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    object-fit: cover;
+    /* gap: 15rem; */
+    width: 19rem;
+    height: 23rem;
+    background: rgb(0, 0, 0);
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.provider .persona {
+    border-radius: 20px;
+    width: 23rem;
+    margin-top: -5rem;
+    margin-bottom: -3rem;
+}
+
+.provider .nameBar {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 10;
+    width: 100%;
+    height: 3.5rem;
+    background: var(--limeGreen);
+}
+
+.nomePrestadorBar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.provider .nameBar .barName {
+    font-family: 'Montserrat';
+    font-size: 1.3rem;
+}
+
+.provider .nameBar .stars {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.1rem;
+} 
+
+.provider .nameBar .star {
+    width: 1.5rem;
+}
+
+.provider .distance {
+    background: #d9f5037c;
+    width: 5rem;
+    height: 3rem;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;;
+    margin-top: 2rem;
+    margin-left: 11rem;
+    z-index: 10;
+}
+
+.sendMensa {
+    border: none;
+    border-radius: 40px;
+    width: 14rem;
+    height: 2.3rem;
+    cursor: pointer;
+    font-family: 'Montserrat';
+    background: #fff;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.cradsPrestador {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 40px;
+    margin-top: 5rem;
+}
